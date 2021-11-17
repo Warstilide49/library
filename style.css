@@ -1,0 +1,89 @@
+/*
+{
+	border: 2px solid red;
+}
+*/
+body{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	min-height: 100vh;
+	margin: 0px;
+}
+
+#header{
+	background-color: blueviolet;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	height: 10vh;
+}
+
+#container{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin-right: 20px;
+	padding: 20px 5px;
+}
+
+#add_form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input{
+	display: block;
+}
+
+#radio{
+	display: inline-block;
+}
+
+#not_read ,#read{
+	display: inline-block;
+}
+
+#card_holder{
+	display: flex;
+	flex-flow: row wrap;
+	margin-left: 10px;
+	gap: 15px;
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	gap: 3px;
+	padding: 0 20px;
+	border: 2px solid red;
+}
+
+.title{
+	font-weight: 700;
+	text-decoration: underline;
+	font-size: 25px;
+	text-align: center;
+}
+
+.read{
+	background-color: green;
+}
+
+#footer{
+	background-color: blueviolet;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+	height: 10vh;
+}

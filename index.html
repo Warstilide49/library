@@ -7,6 +7,25 @@
 	<script src="app.js" defer></script>
 </head>
 <body>
-	<div class="container"></div>
+	<div id="header">Library</div>
+	<div id="container">
+		<div id="card_holder"></div>
+		<div id="add_form">
+			<form>
+				<label for="title">Title
+				<input type="text" id="title" name="add_book" ></label>
+				<label for="author">Author
+				<input type="text" id="author" name="add_book" ></label>
+				<label for="pages">Pages
+				<input type="number" id="pages" min="1" max="10000" name="add_book" ></label>
+				<label id="radio" for="read">Read
+				<input type="radio" id="read" name="add_book" ></label>
+				<label id="radio" for="read">Not Read
+				<input type="radio" id="not_read" name="add_book" ></label>
+			</form>
+			<button type='button'>Submit</button>
+		</div>
+	</div>
+	<div id="footer">@warstilide49</div>
 </body>
 </html>
